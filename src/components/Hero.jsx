@@ -4,7 +4,7 @@ const Hero = () => {
   const videoRef = useRef();
   useEffect(() => {
     if (videoRef.current) videoRef.current.playbackRate = 5;
-  }, gi[]);
+  }, []);
 
   return (
     <section id="hero">
