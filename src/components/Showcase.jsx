@@ -19,7 +19,7 @@ const Showcase = () => {
         .to(".mask  img", {
           transform: "scale(1.1)",
         })
-        .to(".content", { opacity: 1, y: 0, ease: "power1.in" });
+        .to(".content", { opacity: 1, y: 0 });
     }
   }, [isTablet]);
 
